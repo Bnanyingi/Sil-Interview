@@ -1,0 +1,81 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "image": "/assets/blackimage.jpeg",
+      "albums": [
+        {
+          "id": 1,
+          "name": "Jane Doe 1",
+          "image": "/assets/blackimage.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe 2",
+          "image": "/assets/blackimage.jpeg",
+          "desription": "album description"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe",
+      "image": "/assets/dark-side.jpeg",
+      "albums": [
+        {
+          "id": 1,
+          "name": "John Doe 1",
+          "image": "/assets/dark-side.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 2,
+          "name": "John Doe 2",
+          "image": "/assets/dark-side.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 3,
+          "name": "John Doe 3",
+          "image": "/assets/dark-side.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 4,
+          "name": "John Doe 4",
+          "image": "/assets/dark-side.jpeg",
+          "desription": "album description"
+        }
+      ]
+    },
+    {
+      "firstName": "Doe",
+      "lastName": "Doe",
+      "image": "/assets/Tie.jpeg",
+      "albums": [
+        {
+          "id": 1,
+          "name": "Doe Doe 1",
+          "image": "/assets/Tie.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 2,
+          "name": "Doe Doe 2",
+          "image": "/assets/Tie.jpeg",
+          "desription": "album description"
+        },
+        {
+          "id": 3,
+          "name": "Doe Doe 3",
+          "image": "/assets/Tie.jpeg",
+          "desription": "album description"
+        }
+      ]
+    }
+  ]
+}

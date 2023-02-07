@@ -1,0 +1,42 @@
+
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+
+
+  <div class="carousel-inner py-4">
+
+    <div class="carousel-item active">
+      <div class="container">
+
+
+        <div class="row" *ngIf="artist | async as artist">
+
+          <div class="col-lg-4" *ngFor='let album of artist?.albums'>
+            <div class="card" *ngIf="album?.id === albumId">
+              <img
+                [src]="album?.image"
+                class="card-img-top"
+                alt="Image Description"
+              />
+              <div class="card-body">
+                <h5 class="card-title"> {{album?.name}} </h5>
+                <a href="#!" class="btn btn-primary">Edit Title</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+

@@ -1,0 +1,10 @@
+<div class="row" *ngIf="artist | async as artist">
+  <div class="card" style="width: 18rem;" *ngFor='let album of artist?.albums'>
+    <img class="card-img-top" [src]="album?.image" alt="Image Description">
+    <div class="card-body">
+      <h5 class="card-title"> {{album?.name}} </h5>
+      <p class="card-text"> {{album?.description}} </p>
+      <a [routerLink]="['/users/' + artist?.id + '/albums/' + album?.id]" class="btn btn-primary">View Album</a>
+    </div>
+  </div>
+</div>
