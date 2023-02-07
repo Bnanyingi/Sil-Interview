@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Albumapp",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
